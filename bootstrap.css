@@ -5442,6 +5442,10 @@ hr{
   .modal-fullscreen-md-down .modal-footer {
     border-radius: 0;
   }
+  h1{
+    font-size: 3px;
+    color: red;
+  }
 }
 @media (max-width: 991.98px) {
   .modal-fullscreen-lg-down {
