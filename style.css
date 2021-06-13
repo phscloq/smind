@@ -5,6 +5,91 @@
     padding: 0;
     font-family: 'Merriweather', serif;
 }
+/* Essay Page Start */
+    .body-e{
+   
+    background-color: rgb(255, 255, 255);
+    color: black;
+    }
+    .links-e{
+   
+    margin-top: 10rem;
+    display: flex;
+   text-align: center;
+    flex-direction: column;
+    width: 150px;
+    line-height: 2.3rem;
+    position: fixed;
+}
+.links-e a{
+    
+    text-decoration: none;
+    color: black;
+}
+.links-e .anime:hover{
+    color: rgb(199, 20, 20);
+    font-weight: bold;
+    text-decoration: underline;
+    transition: 0.2s;
+}
+.links-e .index:hover{
+    color: rgb(199, 20, 20);
+    font-weight: bold;
+    text-decoration: underline;
+    transition: 0.2s;
+}
+.links-e .accordion:hover{
+    color: rgb(199, 20, 20);
+    font-weight: bold;
+    text-decoration: underline;
+    transition: 0.2s;
+}
+.text-story{
+    line-height: 1.7;
+    font-size: 1rem; 
+    
+    
+    margin-top:  7.5rem;
+    margin-bottom: 2.5rem;
+    width: 800px;
+    height: auto;
+    text-align: justify ;
+}
+.title-story{
+    margin-top: 5rem;
+}
+.story-center {
+    display: flex;
+    justify-content: center;
+}
+.panel{
+    padding: 0 18px;
+    background-color: rgb(179, 179, 179);
+    display: none;
+    overflow: hidden;
+}
+.panel a:hover{
+    text-decoration: underline;
+}
+.panel ul{
+    list-style: none;
+}
+.accordion{
+    cursor: pointer;
+   
+}
+.active {
+    
+    background-color: rgb(162, 162, 162);
+}
+.socials a:hover{
+    color: rgb(29,161,242);
+}
+
+
+/* Essay Page End */
+
+
 .header-name {
 text-align: center;
 margin-top: 10rem;
@@ -52,39 +137,7 @@ color: black;
     margin-bottom: 4.5px;
     padding: 0 1.5rem 0 1.5rem;
 }
-.links-e{
-   
-    margin-top: 10rem;
-    display: flex;
-   text-align: center;
-    flex-direction: column;
-    width: 150px;
-    line-height: 2.3rem;
-    position: fixed;
-}
-.links-e a{
-    
-    text-decoration: none;
-    color: black;
-}
-.links-e .anime:hover{
-    color: rgb(199, 20, 20);
-    font-weight: bold;
-    text-decoration: underline;
-    transition: 0.2s;
-}
-.links-e .index:hover{
-    color: rgb(199, 20, 20);
-    font-weight: bold;
-    text-decoration: underline;
-    transition: 0.2s;
-}
-.links-e .accordion:hover{
-    color: rgb(199, 20, 20);
-    font-weight: bold;
-    text-decoration: underline;
-    transition: 0.2s;
-}
+
 .links a:hover{
     font-weight: bold;
 text-decoration: underline;
@@ -93,11 +146,7 @@ text-decoration: underline;
     background-color: rgb(16, 65, 110);
     
 }
-.body-e{
-   
-    background-color: rgb(255, 255, 255);
-    color: black;
-}
+
 .main li{
     
     margin-left: 42px;
@@ -112,59 +161,8 @@ text-decoration: underline;
 .sign{
     margin-left: 32rem;
 }
-.text-story{
-    line-height: 1.7;
-    font-size: 1rem; 
-    
-    
-    margin-top:  7.5rem;
-    margin-bottom: 2.5rem;
-    width: 800px;
-    height: auto;
-    text-align: justify ;
-}
-.title-story{
-    margin-top: 5rem;
-}
-.story-center {
-    display: flex;
-    justify-content: center;
-}
+
 .main{
     display: flex;
     justify-content: center;
-}
-.panel{
-    padding: 0 18px;
-    background-color: rgb(179, 179, 179);
-    display: none;
-    overflow: hidden;
-}
-.panel a:hover{
-    text-decoration: underline;
-}
-.panel ul{
-    list-style: none;
-}
-.accordion{
-    cursor: pointer;
-   
-}
-.active {
-    
-    background-color: rgb(162, 162, 162);
-}
-.socials a:hover{
-    color: rgb(29,161,242);
-}
-@media (max-width: 600px){
-    .story-center{
-    width: 100%;
-    }  
-    .text-story{
-        width: 80%;
-    }
-    .link-e{
-        display:none;
-    }
 }
