@@ -43,7 +43,9 @@
     scroll-behavior: smooth;
   }
 }
-
+#teln{
+  color:red;
+}
 body {
   margin: 0;
   font-family: var(--bs-font-sans-serif);
@@ -7248,7 +7250,7 @@ hr{
 }
 
 .fs-6 {
-  font-size: 4rem !important;
+  font-size: 6rem !important;
 }
 
 .fst-italic {
