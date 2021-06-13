@@ -625,6 +625,7 @@ progress {
 }
 
 @media (min-width: 576px) {
+  .fs-6{ font-size: 5rem; }
   .container-sm, .container {
     max-width: 540px;
   }
