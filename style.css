@@ -5,21 +5,28 @@
     padding: 0;
     font-family: 'Merriweather', serif;
 }
-header {
+.header-name {
 text-align: center;
 margin-top: 10rem;
 color: white;
 }
+.header-anime{
+text-align: center;
+margin-top: 20rem;
+color: black;
+
+}
+
 .links, .main {
     display: block;
     margin-top: 4.8rem;
 }
 .main {
- width: 60%;
+ width: 800px;
  height: 100%;
  padding: 1.7rem;
  margin-left: 20rem;
- background-color: gray;
+ border: 1px black solid;
  font-size: large;
  line-height: 1.9;
 }
@@ -27,11 +34,17 @@ color: white;
     float: left;
     display: flex;
     flex-direction: column;
-    background-color: rgb(173, 103, 138);
+    
     padding: 3rem;
     line-height: 3;
     font-size: 19px; 
     position: fixed;   
+}
+#links-sub{
+    background-color: rgb(84, 105, 93);
+}
+#links-id{
+    background-color: rgb(173, 103, 138);
 }
 .links a{
   text-decoration: none;
@@ -39,15 +52,108 @@ color: white;
     margin-bottom: 4.5px;
     padding: 0 1.5rem 0 1.5rem;
 }
+.links-e{
+   
+    margin-top: 10rem;
+    display: flex;
+   text-align: center;
+    flex-direction: column;
+    width: 150px;
+    line-height: 2.3rem;
+    position: fixed;
+}
+.links-e a{
+    
+    text-decoration: none;
+    color: black;
+}
+.links-e .anime:hover{
+    color: rgb(199, 20, 20);
+    font-weight: bold;
+    text-decoration: underline;
+    transition: 0.2s;
+}
+.links-e .index:hover{
+    color: rgb(199, 20, 20);
+    font-weight: bold;
+    text-decoration: underline;
+    transition: 0.2s;
+}
+.links-e .accordion:hover{
+    color: rgb(199, 20, 20);
+    font-weight: bold;
+    text-decoration: underline;
+    transition: 0.2s;
+}
 .links a:hover{
     font-weight: bold;
 text-decoration: underline;
 }
-body { 
+.body-m { 
     background-color: rgb(16, 65, 110);
     
+}
+.body-e{
+   
+    background-color: rgb(255, 255, 255);
+    color: black;
 }
 .main li{
     
     margin-left: 42px;
+}
+.quote {
+    margin-left: 38rem;
+   margin-top: 2.5rem;
+}
+.hquote{
+    font-style: italic;
+}
+.sign{
+    margin-left: 32rem;
+}
+.text-story{
+    line-height: 1.7;
+    font-size: 1rem; 
+    
+    
+    margin-top:  7.5rem;
+    margin-bottom: 2.5rem;
+    width: 800px;
+    height: auto;
+    text-align: justify ;
+}
+.title-story{
+    margin-top: 5rem;
+}
+.story-center {
+    display: flex;
+    justify-content: center;
+}
+.main{
+    display: flex;
+    justify-content: center;
+}
+.panel{
+    padding: 0 18px;
+    background-color: rgb(179, 179, 179);
+    display: none;
+    overflow: hidden;
+}
+.panel a:hover{
+    text-decoration: underline;
+}
+.panel ul{
+    list-style: none;
+}
+.accordion{
+    cursor: pointer;
+   
+}
+.active {
+    
+    background-color: rgb(162, 162, 162);
+}
+.socials a:hover{
+    color: rgb(29,161,242);
 }
