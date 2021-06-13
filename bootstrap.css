@@ -43,6 +43,8 @@
     scroll-behavior: smooth;
   }
 }
+#h1{
+  font-size: 6rem;}
 #teln{
   color:red;
 }
@@ -5442,9 +5444,9 @@ hr{
   .modal-fullscreen-md-down .modal-footer {
     border-radius: 0;
   }
-  h1{
+  #h1{
     font-size: 3rem;
-    color: red;
+    
   }
 }
 @media (max-width: 991.98px) {
