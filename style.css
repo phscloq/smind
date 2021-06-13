@@ -164,4 +164,7 @@ text-decoration: underline;
     .text-story{
         width: 80%;
     }
+    .link-e{
+        display:none;
+    }
 }
